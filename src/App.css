@@ -1,0 +1,148 @@
+.App {
+  font-size: 0.8rem;
+
+}
+.App-link {
+  color: #61dafb;
+}
+
+p,
+b,
+span,
+i {
+  font-size: 0.8rem;
+  margin: 0.2px;
+}
+
+hr {
+  margin: 0;
+}
+
+.navbar {
+  box-shadow: 0 4px 8px rgba(163, 163, 163, 0.188);
+  border-radius: 0 0 15px 15px;
+  background-color: white;
+}
+
+.navbar-togg {
+  font-size: 1.5rem;
+}
+
+.navbar-content {
+  max-width: 1400px;
+}
+
+.nav-items ul li {
+  margin-left: 20px;
+}
+
+.logoimg {
+  width: 180px;
+  mix-blend-mode: multiply;
+}
+
+.section-title {
+  font-size: 1rem;
+}
+
+.main {
+  margin-top: 100px;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+/* Full screen with background image */
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  background-color: rgba(248, 248, 248, 0.9);
+  padding: 20px;
+}
+
+/* Card styling */
+.login-card {
+  background: rgba(255, 255, 255, 0.9); /* translucent white */
+  max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  /* padding: 50px 10px 10px 50px; */
+}
+
+.login-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.label {
+  font-size: 13px;
+  color: #8f8f8f;
+  margin-bottom: 2.6px;
+}
+
+/* A4 Size Downloadable */
+
+.downloadable {
+  width: 720px;
+  height: auto;
+}
+
+.dash-card {
+  width: 300px;
+}
+
+.dash-number {
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bottomNav {
+  height: 77px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  padding: 8px 25px;
+  background-color: rgb(248, 249, 250);
+  border-top: 0.5px solid rgb(227, 225, 225);
+  border-radius: 20px 20px 0 0;
+}
+
+.bottomNav .bn-item {
+  font-size: 24px;
+  text-align: center;
+  color: rgb(61, 61, 61);
+  position: relative;
+}
+
+.bottomNav .bn-item p {
+  color: rgb(93, 93, 93);
+}
+
+.css-1k9hkw1-MuiButtonBase-root-MuiButton-root {
+  line-height: 2.3 !important;
+}
+
+.custom-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  /* height: 170px; */
+  border-radius: 10px;
+}
